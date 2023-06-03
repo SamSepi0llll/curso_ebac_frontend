@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador De Números</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador De Números</h1>
+        <img src="./Numbers.png" alt="">
+        <h2>Digite Dois Números</h2>
+        <form id="form-ex">
+            <input type="number" id="campo-A" required placeholder="Digite o primeiro numero">
+            <input type="number" id="campo-B" required placeholder="Digite o segundo numero">
+            <p class="msg-fail">
+                O formulário é <b>INVÁLIDO</b>! Pois o primeiro Número não pode ser maior que o segundo!
+            </p>
+            <button type="submit" id="botao">Verificar</button>
+            <p class="msg-sucess">
+                O formulário é <b>VÁLIDO</b>!
+            </p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
