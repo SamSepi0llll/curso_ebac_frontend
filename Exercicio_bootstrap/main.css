@@ -1,0 +1,21 @@
+body{
+    padding-top: 100px;
+}
+input{
+    margin-bottom: 8px;
+}
+.form-label{
+    display: block;
+}
+.btn{
+    display: block;
+    margin: 8px 0;
+}
+.error{
+    color: red;
+    display: block;
+}
+.alert-success{
+    display: none;
+}
+
