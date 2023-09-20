@@ -32,10 +32,6 @@ function minJS(){
     .pipe(gulp.dest('./build/scripts'))
 }
 
-exports.sass = compilaSASS
-exports.imagecompress = imageCompress
-exports.minjs = minJS
-
 exports.default = function(){
     gulp.watch('./source/styles/*.scss', {ignoreInitial: false}, gulp.series(compilaSASS))
     gulp.watch('./source/images/*', {ignoreInitial: false}, gulp.series(imageCompress))
