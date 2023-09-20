@@ -1,0 +1,1 @@
+function ಠ_ಠ755(n,r){return n+r}
